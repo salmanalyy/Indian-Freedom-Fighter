@@ -1,0 +1,50 @@
+header{
+    background:linear-gradient(90deg,rgb(242, 192, 192),white,rgb(203, 239, 203))
+}
+.hover-image{
+    width: 200px;
+  height: auto;
+  border: 2px solid rgb(199, 202, 199);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  border-radius: 20px;
+
+}
+.hover-image:hover{
+    transform: scale(1.2); 
+  box-shadow: 0 0 10px 10px rgb(186, 184, 184); 
+  cursor: pointer;
+  border-radius: 40px;
+}
+.freedom-fighter{
+    font-size: 20px;
+  font-family: Georgia, serif;
+  color: darkred;
+  outline: none; 
+  transition: all 0.3s ease;
+  cursor: pointer
+}
+.freedom-fighter:focus{
+  color: rgb(253, 253, 255);
+  background-color: darkred;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px darkred;
+  transition: all 0.3s ease;
+}
+.freedom-fighter:hover{
+  text-decoration: underline;
+  transform: scale(1.2); 
+  box-shadow:rgb(241, 127, 127); 
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+.bottom_heading{
+    color: rgb(16, 10, 2);
+    background-color: rgb(53, 61, 97);
+    font-display: block;
+}
+
+footer{
+  background:linear-gradient(90deg, rgb(242, 192, 192),white,rgb(203, 239, 203))
+}

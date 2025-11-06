@@ -1,0 +1,30 @@
+header{
+
+    background: linear-gradient(90deg,rgb(242, 192, 192),white,rgb(203, 239, 203));
+
+}
+.trcolor{
+     background: linear-gradient(90deg,rgb(203, 239, 203));
+
+}
+.button { 
+    background-color: rgb(31, 129, 22);
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease; 
+}
+ 
+.button:hover { 
+    background-color: rgb(11, 57, 11);
+    transform: scale(1.1, 1.1); 
+    box-shadow: 0 0 10px rgb(2, 11, 1); 
+}
+
+
+footer{
+  background:linear-gradient(180deg,rgb(242, 192, 192),white,rgb(203, 239, 203));
+}
